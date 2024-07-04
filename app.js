@@ -33,7 +33,7 @@ guessBtn.addEventListener('click', ()=>{
         displayResult.style.color = "red";
     }
     if(inputNumber > 4){
-        displayResult.textContent = "Number should be between 1-3"
+        displayResult.textContent = "Number should be between 1-4"
         displayResult.style.color = "white";
         YourGuess.innerHTML = "";
         computerGuess.innerHTML = "";
